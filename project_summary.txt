@@ -1,0 +1,39 @@
+Summary Statistics:
+-------------------
+Articles Analyzed: 10 
+Topics Identified: 4 
+Total Words (cleaned): 243 
+
+Generated Outputs:
+- Raw_Articles.csv
+- Cleaned_Articles.csv
+- raw_word_distribution.png
+- cleaned_word_distribution.png
+- top_words.png
+- topic_terms.png
+- topic_distribution.png
+- topic_heatmap.png
+- corpus_wordcloud.png
+
+
+Final_Project/
+│
+├── main_analysis.R          # Main R script (the code above)
+├── Project_Report.Rmd       # Written report
+├── Project_Report.html/pdf  # Compiled report
+├── Raw_Articles.csv         # Scraped raw data
+├── Cleaned_Articles.csv     # Preprocessed data
+├── session_info.txt         # Reproducibility info
+│
+├── images/                  # Generated visualizations
+│   ├── raw_word_distribution.png
+│   ├── cleaned_word_distribution.png
+│   ├── top_words.png
+│   ├── coherence_scores.png
+│   ├── topic_terms.png
+│   ├── topic_distribution.png
+│   ├── topic_heatmap.png
+│   ├── corpus_wordcloud.png
+│   └── wordcloud_topic_*.png
+│
+└── README.txt              # Instructions to run the project
