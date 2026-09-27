@@ -6,18 +6,6 @@ This project applies data science methodologies to analyze world news articles, 
 
 The project demonstrates the practical application of web scraping, text mining, and topic modeling techniques, providing a framework for automated news categorization and trend analysis.
 
-**Course:** Introduction to Data Science Final-Term Project  
-**Institution:** American International University-Bangladesh (AIUB)  
-**Semester:** Fall 2025-2026  
-
-## Team Members
-
-| ID | Name | Contribution Details |
-| :--- | :--- | :--- |
-| 22-47146-1 | MST AFRIN BINTE AMIN | Data Collection + Dataset Setup (Scraping & Storage) |
-| 22-47597-2 | MONJILA KABIR MEGH | Data Cleaning + Text Preprocessing |
-| 22-47155-1 | MD ABDULLAH AL NOMAN | Modeling + Visualization + Result Interpretation |
-
 ## Dataset Description
 
 The dataset consists of 15 world news articles manually curated to represent diverse topics. Each article includes:
@@ -67,25 +55,25 @@ Latent Dirichlet Allocation (LDA) is employed for topic modeling with 4 topics (
 ### 1. Word Count Analysis
 The histograms below show the distribution of word counts before and after cleaning. The mean word count drops from 32 words in the raw data to 24 words after preprocessing.
 
-![Distribution of Raw Article Word Counts](raw_word_distribution.png)
-![Distribution of Cleaned Article Word Counts](cleaned_word_distribution.png)
+<img src="raw_word_distribution.png" width="600" alt="Distribution of Raw Article Word Counts">
+<img src="cleaned_word_distribution.png" width="600" alt="Distribution of Cleaned Article Word Counts">
 
 ### 2. Frequent Terms
 The bar chart displays the top 15 most frequent words in the cleaned articles, with "technology," "solution," and "economic" appearing most often.
 
-![Top 15 Most Frequent Words](top_words.png)
+<img src="top_words.png" width="600" alt="Top 15 Most Frequent Words">
 
 ### 3. Topic Modeling Results
 The LDA model identified distinct topics within the news corpus. The bar chart shows the distribution of articles across the 4 topics, while the word cloud highlights terms associated with Topic 1.
 
-![Distribution of Articles Across Topics](topic_distribution.png)
-![Topic 1 Word Cloud](wordcloud_topic_1.png)
+<img src="topic_distribution.png" width="600" alt="Distribution of Articles Across Topics">
+<img src="wordcloud_topic_1.png" width="600" alt="Topic 1 Word Cloud">
 
 ### 4. Corpus Word Cloud and Topic Heatmap
 The corpus word cloud highlights the overall most frequent terms across all articles, while the heatmap shows the probability distribution of topics across individual documents.
 
-![Word Cloud: Most Frequent Terms in News Articles](corpus_wordcloud.png)
-![Topic Proportions per Article](topic_heatmap.png)
+<img src="corpus_wordcloud.png" width="600" alt="Word Cloud: Most Frequent Terms in News Articles">
+<img src="topic_heatmap.png" width="600" alt="Topic Proportions per Article">
 
 ## Key Findings
 
