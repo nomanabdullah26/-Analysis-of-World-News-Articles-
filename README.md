@@ -6,17 +6,7 @@ This project applies data science methodologies to analyze world news articles, 
 
 The project demonstrates the practical application of web scraping, text mining, and topic modeling techniques, providing a framework for automated news categorization and trend analysis.
 
-**Course:** Introduction to Data Science Final-Term Project  
-**Institution:** American International University-Bangladesh (AIUB)  
-**Semester:** Fall 2025-2026  
 
-## Team Members
-
-| ID | Name | Contribution Details |
-| :--- | :--- | :--- |
-| 22-47146-1 | MST AFRIN BINTE AMIN | Data Collection + Dataset Setup (Scraping & Storage) |
-| 22-47597-2 | MONJILA KABIR MEGH | Data Cleaning + Text Preprocessing |
-| 22-47155-1 | MD ABDULLAH AL NOMAN | Modeling + Visualization + Result Interpretation |
 
 ## Dataset Description
 
