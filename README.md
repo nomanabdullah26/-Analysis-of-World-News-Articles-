@@ -6,7 +6,17 @@ This project applies data science methodologies to analyze world news articles, 
 
 The project demonstrates the practical application of web scraping, text mining, and topic modeling techniques, providing a framework for automated news categorization and trend analysis.
 
+**Course:** Introduction to Data Science Final-Term Project  
+**Institution:** American International University-Bangladesh (AIUB)  
+**Semester:** Fall 2025-2026  
 
+## Team Members
+
+| ID | Name | Contribution Details |
+| :--- | :--- | :--- |
+| 22-47146-1 | MST AFRIN BINTE AMIN | Data Collection + Dataset Setup (Scraping & Storage) |
+| 22-47597-2 | MONJILA KABIR MEGH | Data Cleaning + Text Preprocessing |
+| 22-47155-1 | MD ABDULLAH AL NOMAN | Modeling + Visualization + Result Interpretation |
 
 ## Dataset Description
 
@@ -57,20 +67,22 @@ Latent Dirichlet Allocation (LDA) is employed for topic modeling with 5 topics (
 ### 1. Exploratory Data Analysis
 The initial analysis shows the distribution of articles across categories and the word count distribution.
 
-![Distribution of Articles by Category](https://github.com/user-attachments/assets/placeholder-category-dist.png)
-![Word Count Distribution](https://github.com/user-attachments/assets/placeholder-word-count.png)
+![Distribution of Articles by Category](images/category_dist.png)
+![Distribution of Raw Article Word Counts](images/raw_word_count.png)
+![Distribution of Cleaned Article Word Counts](images/cleaned_word_count.png)
 
 ### 2. Topic Modeling Results
 The LDA model identified distinct topics within the news corpus. Below are the top terms for each topic and the overall topic distribution.
 
-![Top Terms in Each Topic](https://github.com/user-attachments/assets/placeholder-top-terms.png)
-![Distribution of Articles Across Topics](https://github.com/user-attachments/assets/placeholder-topic-dist.png)
+![Top Terms in Each Topic](images/top_terms.png)
+![Distribution of Articles Across Topics](images/topic_dist.png)
 
 ### 3. Word Clouds and Heatmaps
 Word clouds highlight the most frequent terms, while heatmaps show the probability distribution of topics across individual documents.
 
-![Word Cloud: Most Frequent Terms](https://github.com/user-attachments/assets/placeholder-wordcloud.png)
-![Topic Proportions per Document](https://github.com/user-attachments/assets/placeholder-heatmap.png)
+![Word Cloud: Most Frequent Terms](images/wordcloud.png)
+![Topic Proportions per Article](images/heatmap.png)
+![Topic 1 Word Cloud](images/topic1_wordcloud.png)
 
 ## Key Findings
 
