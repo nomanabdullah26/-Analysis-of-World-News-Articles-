@@ -67,25 +67,25 @@ Latent Dirichlet Allocation (LDA) is employed for topic modeling with 4 topics (
 ### 1. Word Count Analysis
 The histograms below show the distribution of word counts before and after cleaning. The mean word count drops from 32 words in the raw data to 24 words after preprocessing.
 
-![Distribution of Raw Article Word Counts](images/raw_word_distribution.png)
-![Distribution of Cleaned Article Word Counts](images/cleaned_word_distribution.png)
+![Distribution of Raw Article Word Counts](raw_word_distribution.png)
+![Distribution of Cleaned Article Word Counts](cleaned_word_distribution.png)
 
 ### 2. Frequent Terms
 The bar chart displays the top 15 most frequent words in the cleaned articles, with "technology," "solution," and "economic" appearing most often.
 
-![Top 15 Most Frequent Words](images/top_words.png)
+![Top 15 Most Frequent Words](top_words.png)
 
 ### 3. Topic Modeling Results
 The LDA model identified distinct topics within the news corpus. The bar chart shows the distribution of articles across the 4 topics, while the word cloud highlights terms associated with Topic 1.
 
-![Distribution of Articles Across Topics](images/topic_distribution.png)
-![Topic 1 Word Cloud](images/wordcloud_topic_1.png)
+![Distribution of Articles Across Topics](topic_distribution.png)
+![Topic 1 Word Cloud](wordcloud_topic_1.png)
 
 ### 4. Corpus Word Cloud and Topic Heatmap
 The corpus word cloud highlights the overall most frequent terms across all articles, while the heatmap shows the probability distribution of topics across individual documents.
 
-![Word Cloud: Most Frequent Terms in News Articles](images/corpus_wordcloud.png)
-![Topic Proportions per Article](images/topic_heatmap.png)
+![Word Cloud: Most Frequent Terms in News Articles](corpus_wordcloud.png)
+![Topic Proportions per Article](topic_heatmap.png)
 
 ## Key Findings
 
