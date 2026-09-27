@@ -33,7 +33,7 @@ The dataset consists of 15 world news articles manually curated to represent div
 **Dataset Statistics:**
 *   Total articles: 15
 *   Categories: 5 distinct categories
-*   Average article length: Approximately 23 words after cleaning
+*   Average article length: Approximately 24 words after cleaning
 
 ## Research Objectives
 
@@ -57,51 +57,53 @@ Text cleaning is performed to prepare data for modeling. The process includes:
 *   Stripping whitespace.
 
 ### 3. Exploratory Data Analysis (EDA)
-EDA is conducted to understand dataset characteristics, including category distribution and word count analysis. Visualizations include bar charts for category distribution and histograms for word counts.
+EDA is conducted to understand dataset characteristics, including category distribution and word count analysis. Visualizations include histograms for word counts and bar charts for the most frequent terms.
 
 ### 4. Modeling (LDA)
-Latent Dirichlet Allocation (LDA) is employed for topic modeling with 5 topics (k=5). The model is trained on a Document-Term Matrix (DTM) created from the cleaned text.
+Latent Dirichlet Allocation (LDA) is employed for topic modeling with 4 topics (k=4). The model is trained on a Document-Term Matrix (DTM) created from the cleaned text.
 
 ## Visualizations
 
-### 1. Exploratory Data Analysis
-The initial analysis shows the distribution of articles across categories and the word count distribution.
+### 1. Word Count Analysis
+The histograms below show the distribution of word counts before and after cleaning. The mean word count drops from 32 words in the raw data to 24 words after preprocessing.
 
-![Distribution of Articles by Category](images/category_dist.png)
-![Distribution of Raw Article Word Counts](images/raw_word_count.png)
-![Distribution of Cleaned Article Word Counts](images/cleaned_word_count.png)
+![Distribution of Raw Article Word Counts](images/raw_word_distribution.png)
+![Distribution of Cleaned Article Word Counts](images/cleaned_word_distribution.png)
 
-### 2. Topic Modeling Results
-The LDA model identified distinct topics within the news corpus. Below are the top terms for each topic and the overall topic distribution.
+### 2. Frequent Terms
+The bar chart displays the top 15 most frequent words in the cleaned articles, with "technology," "solution," and "economic" appearing most often.
 
-![Top Terms in Each Topic](images/top_terms.png)
-![Distribution of Articles Across Topics](images/topic_dist.png)
+![Top 15 Most Frequent Words](images/top_words.png)
 
-### 3. Word Clouds and Heatmaps
-Word clouds highlight the most frequent terms, while heatmaps show the probability distribution of topics across individual documents.
+### 3. Topic Modeling Results
+The LDA model identified distinct topics within the news corpus. The bar chart shows the distribution of articles across the 4 topics, while the word cloud highlights terms associated with Topic 1.
 
-![Word Cloud: Most Frequent Terms](images/wordcloud.png)
-![Topic Proportions per Article](images/heatmap.png)
-![Topic 1 Word Cloud](images/topic1_wordcloud.png)
+![Distribution of Articles Across Topics](images/topic_distribution.png)
+![Topic 1 Word Cloud](images/wordcloud_topic_1.png)
+
+### 4. Corpus Word Cloud and Topic Heatmap
+The corpus word cloud highlights the overall most frequent terms across all articles, while the heatmap shows the probability distribution of topics across individual documents.
+
+![Word Cloud: Most Frequent Terms in News Articles](images/corpus_wordcloud.png)
+![Topic Proportions per Article](images/topic_heatmap.png)
 
 ## Key Findings
 
 Based on the LDA model and analysis of the news corpus:
 
-1.  **Topic 1:** Global, effectiveness, trials, clinical, renewable energy.
-2.  **Topic 2:** International agreements, economic, technology, leaders.
-3.  **Topic 3:** Energy, implementing, projects, renewable, solar, funding.
-4.  **Topic 4:** Government, companies, growth, solar projects.
-5.  **Topic 5:** Economic, world, reduce, funding, increased projects.
-
 **Topic Distribution:**
-*   Topic 5: 33.3% of articles
+*   Topic 4: 30% of articles
+*   Topic 1: 30% of articles
 *   Topic 2: 20% of articles
-*   Topic 4: 20% of articles
-*   Topic 1: 13.3% of articles
-*   Topic 3: 13.3% of articles
+*   Topic 3: 20% of articles
 
-The most prevalent topics relate to **Economic/International** news and **Environmental/Energy** news.
+The most prevalent topics (Topics 1 and 4) relate to **Environmental/Energy** news and **Economic/International** news.
+
+**Top Terms per Topic (Sample):**
+*   **Topic 1:** technology, economic, solution, patient, treatment
+*   **Topic 2:** global, energy, renewable, carbon, climate
+*   **Topic 3:** international, government, agreement, political
+*   **Topic 4:** economic, market, growth, financial
 
 ## Requirements
 
